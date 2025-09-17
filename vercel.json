@@ -1,5 +1,5 @@
 {
-  "builds": [{ "src": "package.json", "use": "@vercel/static-build" }],
-  "scripts": { "build": "vite build" },
+  "version": 2,
+  "buildCommand": "vite build",
   "outputDirectory": "dist"
 }
